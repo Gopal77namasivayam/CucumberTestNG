@@ -1,0 +1,93 @@
+[
+  {
+    "line": 1,
+    "elements": [
+      {
+        "line": 2,
+        "name": "FreeCRM Login Page scenrios",
+        "description": "",
+        "id": "freecrm-login-page;freecrm-login-page-scenrios",
+        "after": [
+          {
+            "result": {
+              "duration": 702226848,
+              "status": "passed"
+            },
+            "match": {
+              "location": "LoginStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 17457615014,
+              "status": "passed"
+            },
+            "line": 3,
+            "name": "user open the browser",
+            "match": {
+              "location": "LoginStepDefinition.user_open_the_browser()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 153565908,
+              "status": "passed"
+            },
+            "line": 4,
+            "name": "user validate loginPage title",
+            "match": {
+              "location": "LoginStepDefinition.user_validate_loginPage_title()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 9089320071,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "user enter the loginto the application using valid credentils",
+            "match": {
+              "location": "LoginStepDefinition.user_enter_the_loginto_the_application_using_valid_credentils()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 20443595,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "validate home page title",
+            "match": {
+              "location": "LoginStepDefinition.validate_home_page_title()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 319497989,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "validate login user name text",
+            "match": {
+              "location": "LoginStepDefinition.validate_login_user_name_text()"
+            },
+            "keyword": "Then "
+          }
+        ]
+      }
+    ],
+    "name": "FreeCRM Login Page",
+    "description": "",
+    "id": "freecrm-login-page",
+    "keyword": "Feature",
+    "uri": "C:/Users/GOPAL NAMASIVAYAM/Desktop/ecli/CucumberWithTestNG/src/main/java/com/qa/features/login.feature"
+  }
+]
